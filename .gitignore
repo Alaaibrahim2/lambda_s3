@@ -1,0 +1,17 @@
+# Terraform local state
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+*.tf
+*.tf.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Build artifacts
+*.zip
