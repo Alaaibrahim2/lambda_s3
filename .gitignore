@@ -15,3 +15,8 @@ override.tf.json
 
 # Build artifacts
 *.zip
+
+# Keep the Lambda source code visible in GitHub while ignoring Terraform files
+!modules/
+!modules/lambda/
+!modules/lambda/lambda_function.py
